@@ -17,7 +17,7 @@ namespace DefaultToolOverride
         public override string Name => "DefaultToolOverride";
         public override string Author => "art0007i";
         public override string Version => "1.0.4";
-        public override string Link => "https://github.com/art0007i/DefaultToolOverride/";
+        public override string Link => "https://github.com/lill-la/DefaultToolOverride";
 
         public enum OverrideType
         {
@@ -104,7 +104,7 @@ namespace DefaultToolOverride
         {
             config = GetConfiguration();
 
-            Harmony harmony = new Harmony("me.art0007i.DefaultToolOverride");
+            Harmony harmony = new Harmony("la.lill.DefaultToolOverride");
             harmony.PatchAll();
 
         }
